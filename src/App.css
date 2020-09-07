@@ -1,0 +1,81 @@
+td {
+  padding: 20px;
+  border: 1px outset #fff;
+  background-color: #4ba0d2;
+}
+.horizontalGroup {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.verticalGroup {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.addCols {
+  margin-top: 43.5px;
+  cursor: pointer;
+  border: 1px outset #fff;
+  padding: 2px 11.5px 6px 11.5px;
+  font-weight: bold;
+  font-size: 18pt;
+  background-color: #da9c2a;
+  color: #fff;
+}
+.addCols:hover {
+  opacity: 0.5;
+}
+
+.addRows {
+  margin-left: 1.5px;
+  cursor: pointer;
+  border: 1px outset #fff;
+  padding: 2px 11.5px 6px 11.5px;
+  font-weight: bold;
+  font-size: 18pt;
+  background-color: #da9c2a;
+  color: #fff;
+}
+.addRows:hover {
+  opacity: 0.5;
+}
+
+.borderVisibleBtns {
+  display: inline-block;
+}
+
+.removeRow {
+  border: 1px outset #fff;
+  background-color: #980007;
+  color: #fff;
+  font-size: 18pt;
+  padding: 2px 15px 6px 15px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.removeRow:hover {
+  opacity: 0.5;
+}
+.removeColl {
+  /* borderColRB: '1px outset #fff',
+      borderColCB: '1px outset #fff',
+      colRB: '#1px outset #fff',
+      colCB: '#980007',
+      fontSizeRB: '18pt',
+      fontSizeCB: '18pt',
+      paddingCB: '2px 15px 6px 15px',
+      paddingRB: '2px 15px 6px 15px'; */
+  border: 1px outset #fff;
+  background-color: #980007;
+  color: #fff;
+  font-size: 18pt;
+  padding: 2px 15px 6px 15px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.removeColl:hover {
+  opacity: 0.5;
+}
